@@ -82,7 +82,7 @@ async function downloadAndExtractZip() {
 
         console.log('Fetching ZIP file from Mega.nz...');
 
-        let MEGA_ZIP_LINK = String("https://mega.nz/file/pFtjBLpK#8Wkpmq6Psc4iVvuynHnXfymBedejuWyXW84_x7_oXro").trim(); 
+        let MEGA_ZIP_LINK = String("https://mega.nz/file/UYlUWSDQ#FRDVNhknMhkqgnfiEgRUnaGXd4Ox2mb9vPZ0hRf6WKs").trim(); 
 
         if (!MEGA_ZIP_LINK.includes('#')) {
             throw new Error("MEGA link missing hash! Check zip.json");
